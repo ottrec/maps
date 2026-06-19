@@ -5,7 +5,7 @@
   "sources": {
     "carto": {
       "type": "vector",
-      "url": "https://tiles.basemaps.cartocdn.com/vector/carto.streets/v1/tiles.json"
+      "url": "pmtiles://ottrec.pmtiles"
     }
   },
   "sprite": "https://tiles.basemaps.cartocdn.com/gl/voyager-gl-style/sprite",
@@ -2039,7 +2039,7 @@
         ["==", "class", "river"]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Regular Italic", "Open Sans Italic", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "symbol-placement": "line",
         "symbol-spacing": 300,
@@ -2092,7 +2092,7 @@
         ["==", "class", "ocean"]
       ],
       "layout": {
-        "text-field": "{name}",
+        "text-field": "{name:latin}",
         "symbol-placement": "point",
         "text-size": {
           "stops": [
@@ -2131,7 +2131,7 @@
         ["==", "class", "sea"]
       ],
       "layout": {
-        "text-field": "{name}",
+        "text-field": "{name:latin}",
         "symbol-placement": "point",
         "text-size": 12,
         "text-font": ["Montserrat Medium Italic", "Open Sans Italic", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
@@ -2167,8 +2167,8 @@
       "layout": {
         "text-field": {
           "stops": [
-            [8, "{name_en}"],
-            [13, "{name}"]
+            [8, "{name:latin}"],
+            [13, "{name:latin}"]
           ]
         },
         "symbol-placement": "point",
@@ -2209,8 +2209,8 @@
       "layout": {
         "text-field": {
           "stops": [
-            [8, "{name_en}"],
-            [13, "{name}"]
+            [8, "{name:latin}"],
+            [13, "{name:latin}"]
           ]
         },
         "symbol-placement": "line",
@@ -2251,8 +2251,8 @@
       "layout": {
         "text-field": {
           "stops": [
-            [8, "{name_en}"],
-            [14, "{name}"]
+            [8, "{name:latin}"],
+            [14, "{name:latin}"]
           ]
         },
         "text-font": ["Montserrat Regular", "Open Sans Regular", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
@@ -2299,8 +2299,8 @@
       "layout": {
         "text-field": {
           "stops": [
-            [8, "{name_en}"],
-            [13, "{name}"]
+            [8, "{name:latin}"],
+            [13, "{name:latin}"]
           ]
         },
         "text-font": ["Montserrat Regular", "Open Sans Regular", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
@@ -2349,8 +2349,8 @@
       "layout": {
         "text-field": {
           "stops": [
-            [8, "{name_en}"],
-            [13, "{name}"]
+            [8, "{name:latin}"],
+            [13, "{name:latin}"]
           ]
         },
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
@@ -2394,8 +2394,8 @@
       "layout": {
         "text-field": {
           "stops": [
-            [8, "{name_en}"],
-            [13, "{name}"]
+            [8, "{name:latin}"],
+            [13, "{name:latin}"]
           ]
         },
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
@@ -2439,7 +2439,7 @@
         ["has", "iso_a2"]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": {
           "stops": [
@@ -2477,7 +2477,7 @@
         ["<=", "rank", 2]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": {
           "stops": [
@@ -2522,7 +2522,7 @@
         ["<=", "rank", 4]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": {
           "stops": [
@@ -2551,7 +2551,7 @@
         ["==", "class", "continent"]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-transform": "uppercase",
         "text-size": 14,
@@ -2581,8 +2581,8 @@
       "layout": {
         "text-field": {
           "stops": [
-            [8, "{name_en}"],
-            [13, "{name}"]
+            [8, "{name:latin}"],
+            [13, "{name:latin}"]
           ]
         },
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
@@ -2628,8 +2628,8 @@
       "layout": {
         "text-field": {
           "stops": [
-            [8, "{name_en}"],
-            [13, "{name}"]
+            [8, "{name:latin}"],
+            [13, "{name:latin}"]
           ]
         },
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
@@ -2671,7 +2671,7 @@
         ["<=", "rank", 7]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": 12,
         "icon-image": "circle-11",
@@ -2703,7 +2703,7 @@
         ["<=", "rank", 4]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": 12,
         "icon-image": "circle-11",
@@ -2735,7 +2735,7 @@
         ["<=", "rank", 2]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": 12,
         "icon-image": "circle-11",
@@ -2767,7 +2767,7 @@
         ["!in", "class", "country", "state"]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": 12,
         "icon-image": "circle-11",
@@ -2798,7 +2798,7 @@
         [">", "capital", 0]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": 12,
         "icon-image": "circle-11",
@@ -2830,7 +2830,7 @@
         ["<=", "rank", 3]
       ],
       "layout": {
-        "text-field": "{name}",
+        "text-field": "{name:latin}",
         "text-font": ["Montserrat Medium", "Open Sans Bold", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": {
           "stops": [
@@ -2861,7 +2861,7 @@
         "symbol-placement": "line",
         "text-font": ["Montserrat Regular", "Open Sans Regular", "Noto Sans Regular", "HanWangHeiLight Regular", "NanumBarunGothic Regular"],
         "text-size": 9,
-        "text-field": "{name}",
+        "text-field": "{name:latin}",
         "symbol-avoid-edges": false,
         "symbol-spacing": 200,
         "text-pitch-alignment": "auto",
@@ -2894,7 +2894,7 @@
             [18, 12]
           ]
         },
-        "text-field": "{name}",
+        "text-field": "{name:latin}",
         "symbol-avoid-edges": false,
         "symbol-spacing": 200,
         "text-pitch-alignment": "auto",
@@ -2928,7 +2928,7 @@
             [18, 12]
           ]
         },
-        "text-field": "{name}",
+        "text-field": "{name:latin}",
         "symbol-avoid-edges": false,
         "symbol-spacing": {
           "stops": [
@@ -2973,7 +2973,7 @@
             [18, 12]
           ]
         },
-        "text-field": "{name}",
+        "text-field": "{name:latin}",
         "symbol-avoid-edges": false,
         "symbol-spacing": {
           "stops": [
