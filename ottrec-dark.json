@@ -2348,7 +2348,8 @@
         "all",
         ["has", "name"],
         ["==", "$type", "Point"],
-        ["==", "class", "lake"]
+        ["==", "class", "lake"],
+        ["<=", "rank", 30]
       ],
       "layout": {
         "text-field": {
