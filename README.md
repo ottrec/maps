@@ -4,8 +4,6 @@ Map styles for ottrec.ca. WIP.
 
 Edit these in Maputnik, then import the changes manually. The OSM data inspector is useful (`Layers > Map Data`).
 
-I'll probably rasterize these with maptiler-gl later.
-
 ### TODO
 
 #### Features
@@ -27,5 +25,8 @@ I'll probably rasterize these with maptiler-gl later.
 
 - [ ] Tweak colors to match site.
 - [ ] See if I can color LRT lines differently.
-- [ ] See if OpenMapTiles datasets from https://www.maptiler.com/on-prem-datasets/planet/ are sufficient.
+- [ ] ~~See if OpenMapTiles datasets from https://www.maptiler.com/on-prem-datasets/planet/ are sufficient.~~ They aren't, and they aren't free either.
+  - [ ] Look at raw OSM extracts from https://download.geofabrik.de/.
+  - [ ] Convert them to mvt or mlt with https://github.com/systemed/tilemaker or https://github.com/versatiles-org/versatiles-rs or https://github.com/felt/tippecanoe.
+  - [ ] Render them with https://github.com/maptiler/tileserver-gl or something else?
 - [ ] Figure out how to render them.
