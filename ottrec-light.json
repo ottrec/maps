@@ -2998,6 +2998,33 @@
       }
     },
     {
+      "id": "lrt",
+      "type": "line",
+      "source": "carto",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        ["==", "subclass", "light_rail"],
+        ["!=", "service", "yard"]
+      ],
+      "paint": {
+        "line-color": "rgba(196, 138, 144, 1)",
+        "line-width": {
+          "stops": [
+            [11, 2],
+            [13, 4]
+          ],
+          "type": "exponential"
+        },
+        "line-blur": 0
+      },
+      "layout": {
+        "line-cap": "round",
+        "line-join": "miter"
+      },
+      "minzoom": 11
+    },
+    {
       "id": "housenumber",
       "type": "symbol",
       "source": "carto",
