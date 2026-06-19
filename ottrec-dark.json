@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Dark Matter",
+  "name": "Dark Matter (modified)",
   "metadata": { "maputnik:renderer": "mbgljs" },
   "sources": {
     "carto": {
